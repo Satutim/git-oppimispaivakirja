@@ -6,9 +6,9 @@ GIT on minulle vielä todella uutta, olen käyttänyt sitä vasta yhdellä tai k
 
 Johtuen siitä, että melkein kaikki on uutta, jouduin hakemaan paljon tietoa, jotta sain tehtyä tehtävät. Tietoa hakiessa toki oppii. Vaikeaa oli se, etten tiennyt, teenkö asiat oikein vai en. Vaikka katsoin lähes joka välissä git statusta, oli tekeminen epävarmaa.
 
-Sanoisin kuitenkin oppineeni perus toimintoja.Jos en heti ymmärtänyt, mitä jossakin tehtävän osassa kuului tehdä, tiedonhaulla pääsin jyvälle. 
+Sanoisin kuitenkin oppineeni perus toimintoja.Jos en heti ymmärtänyt, mitä jossakin tehtävän osassa kuului tehdä, tiedonhaulla pääsin jyvälle.
 
-Uskon, että joudun vielä käyttämään materiaalia ja hakemaan tietoa jonkun aikaa ennen kuin eri komennot alkavat hiljalleen jäämään mieleen.
+Uskon, että joudun vielä käyttämään materiaalia ja hakemaan tietoa jonkun aikaa ennen kuin eri komennot alkavat hiljalleen jäämään mieleen. Pystyn kuitenkin jo tekemään eri asioita joko esimerkiksi VS Codessa tai komentorivillä tai githubissa.
 
 ## Osiossa käyttämäni Git-komennot
 
@@ -19,17 +19,20 @@ Uskon, että joudun vielä käyttämään materiaalia ja hakemaan tietoa jonkun 
 | cd git-harjoitukset| avaa kansion |
 | git status| näyttää reposition tilanteen |
 | dir| näyttää kansion sisällön |
-| git add . | ottaa tiedostot mukaan talletukseen |
+| git add | ottaa tiedostot mukaan talletukseen |
 | git commit -m | tallettaa muutokset |
 | git add hello.html | tekee repositioon tiedoston |
 | git mv| muuttaa tiedoston nimen |
 | git rm| poistaa tiedoston |
 | git log | näyttää reposition tallennukset |
-| git tag | lisää tagin |
+| git tag | lisää tagin / näyttää tagit |
 | echo > | lisää tiedoston |
 | notepad text2.txt | avaa kyseisen tiedoston notepadissa |
 | code .| avaa reposition Vs Codessa |
 | git reset text2.txt / git reset | poistaa tiedoston / kaikki tiedostot talletukselta |
 | git restore | palauttaa takaisin talletukseen |
 | git reset --hard | palauttaa kaikki tracked tilassa olevat edelliseen commit tilaan |
-| git revert | palauttaa pyydettyyn tilaan repositiossa |
+| git branch | näyttää haarat |
+| git switch haaran nimi | vaihtaa haaraa |
+| git switch -c haaran nimi | luo uuden haaran ja siirtyy siihen |
+| git merge --no-ff haara | yhdistää haarat |
